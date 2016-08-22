@@ -34,7 +34,7 @@ var app = {
     // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
-		document.getElementById("downloadAile").addEventListener("click", downloadFile);
+		document.getElementById("downloadAile").addEventListener("click", downloadAile);
 		function downloadAile() {
 
    var fileTransfer = new FileTransfer();
